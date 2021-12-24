@@ -1,0 +1,19 @@
+
+What is “Desired capabilities”?
+Desired Capabilities are core to Appium. They are actually a set of keys and 
+values sent to the Appium server to tell the server what kind of automation 
+session should be started. There are various capabilities to modify the 
+behavior of the server during automation
+
+
+1. platformName- Specifies the Mobile Device Platform to use. (iOS or 
+Android)
+2. platformVersion- Mobile OS version (8.0, 11.4, 12.1)
+3. app- The absolute path to the location of the app to test, 
+apk/ipa.(For this example it is under src/test/resource directory)
+4. deviceName- Can either refer to an actual mobile device or to an 
+Emulator/Simulator. For Android you can find it using $ adb 
+devices command and for iOS you may use $ instruments -s 
+devices
+5. udid- It is the Unique device identifier of the connected physical 
+device

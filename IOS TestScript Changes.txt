@@ -1,0 +1,27 @@
+What are changes you have to make in IOS Testing ?
+--> 
+1) Desired Capablities 
+ Common DC =  deviceName, automationName, platformName ,platformVersion, UDID
+	app = path of application (to install app android or ios)
+	bundleId= to launch app (if app is already present)
+
+2) XCODE is IDE used for IOS Testing.
+ 	why we need xcode?
+	--> It is IDE ( used by developers to develop application)
+	--> To get Virtual Devices
+
+3) WebDriver Agent
+	
+4) XPath changes (Syantax remains same but class name will be different for Android and IOS device)
+
+5) 2 Locators are more (iOS Predicate String,IOS Class Chain)
+
+6) Here App package and Appactivity is not available we have to use bundle id
+7) Different command to get udid
+
+Command to install ios-deploy: npm install -g ios-deploy
+Command to get UDID: ios-deploy -c
+OR
+Command to get UDID: instruments -s devices
+
+8) IOS Script will only execute on MacBOOK

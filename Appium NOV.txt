@@ -1,0 +1,116 @@
+Appium-->
+
+* It is a Open Source Mobile(Automation) Testing  tool.
+* It is used for IOS and Android  testing.
+* We can Test Native , Mobile web and Hybrid App.
+* java, c, ruby js , python and etc.
+
+Selenium
+* Automation Testing
+* Web App.
+* Cross PLatform
+*java, c, ruby js , python and etc.
+
+-----------------------------------------------
+
+Web App
+
+* Browser to access resource.
+* URl is reqd.
+* Platform independent
+* Servers --> No utilization of system memory
+* Internet is Reqd
+* Installation is not reqd.
+* HTML, CSS , JS, JAVA, Phython C, C#............
+
+--------------------------
+Mobile App
+
+* browser may or may not be reqd.
+* URL may or may not be reqd.
+* Platform Dependant
+  IOS and Android
+* Phone---> HW resorce is utilised
+ memory ram and etc
+* Internet may or May not be reqd.
+* Installation is reqd.
+
+* Android= Java ,
+	
+* IOS= Swift , Flutter and Native JS.
+
+
+================================
+
+* Android-->  Android Studio -->IDE
+
+.apk file
+
+* Ios--> XCODE --> IDE
+
+.ipa  file
+
+==================================
+
+* MAC OS --> U can connect to both.
+ - Android Studio
+ - XCODE
+
+
+* Windows --> u cannot connect to Iphone.
+- Android Studio
+
+* XCODE is only available for Mac.
+
+===================================
+
+Types of App
+
+** 
+
+NAtive-->
+
+Sp. to PLatform or OS  (Android and IOS)
+Sp. Device. MI Store or Galaxy Store or Calculator or Cameras and settings and etc
+It is developed in one Lang. Android --> Java or IOS--> SWIFt, flutter . react.
+Native apps are faster in action.
+Well control over Hardware.
+Poor UI
+
+Mobile Web App.-->
+Any resource if we r going to access over Mobile browser then it is called Mobile Web App.
+Android--> Chrome Browser
+IOS--> Safari 
+
+Hybrid App.-->
+Combination of Both.
+Developed--> MOre than one lang.
+JS , HTML , CSS5 
+Slower on operations.
+Better UI
+
+=========================================
+
+Appium Architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

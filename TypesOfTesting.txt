@@ -1,0 +1,32 @@
+What Are the diff. types of testing u can perform on App?
+
+1.Interupation Test
+
+2.Network
+a.Mobile data
+b.WIFI
+c.Aeroplane Mode
+
+3.Orientation
+
+a.Lanscape
+b.Potrait
+
+4.StandBy
+
+5.Compatablity
+
+6.Cross Platform
+
+7.Installation(App Package and App Activity)
+
+8.GPS(GeoLocation)
+
+9.Gesture(Tap,Swipe,LongPress, Zoom, Pinch)
+
+10.Battery
+
+11.UI(VFX and SFX)
+
+12.Feild Testing
+

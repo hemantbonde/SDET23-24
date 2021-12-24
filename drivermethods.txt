@@ -1,0 +1,43 @@
+Driver Methods
+
+Tap Action:driver.tap(Fingers, WebElement element,duration);
+Uninstalling App:driver.remove(app package)
+Verify or to wheather app is installed:
+driver.isAppInstalled(app package)
+Swipe:driver.swipe(startx, starty, endx, endy, duration);
+Zoom in and zoom out: driver.zoom(WebElement element) , driver.pinch(WebElement element)
+Hide keyBorad: driver.hideKeyboard();
+Launch App: driver.launchApp();
+Close App:driver.closeApp();
+To perform android key actions: driver.pressKeyCode(AndroidKeyCode.KEYCODE_VOLUME_DOWN);
+App Switch: driver.startActivity("App package","app activity");
+Web App Switch: driver.context("WEBVIEW_app package");
+Network :  driver.setConnection(Connection.DATA);
+Orientation: driver.rotate(ScreenOrientation.PORTRAIT);
+Notification:driver.openNotifications();
+Run app in background:driver.runAppInBackground(seconds);
+To handle toast message://android.widget.Toast[1]
+
+ AndroidDriver driver = new AndroidDriver(url, dc)
+AndroidElements
+
+To check Battery:System.out.println(driver.executeScript("mobile:batteryInfo"));
+level:91=0.91 battery percentage
+state:Where value -
+
+  1 : means UNKNOWN
+
+  2 : means CHARGING
+
+  3 : means DISCHARGING
+
+  4 : means NOT_CHARGING
+
+  5 : means FULL
+
+
+Geolocation:driver.getGeolocation();
+driver.setGeolocation()
+
+
+

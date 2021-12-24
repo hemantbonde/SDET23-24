@@ -1,0 +1,35 @@
+1. To create new database
+Synatax:
+Create database database_name;
+
+Eg: create a customers database
+create database customers;
+
+2. Verify the database created or not
+Syntax:-
+show databases;
+
+3. Use the database
+Synatax:-
+use customers;
+
+4. Create a new table with a name customer and add columns id, first name, last name and address
+Syntax:-
+
+create table customer(
+   id INT NOT NULL AUTO_INCREMENT,
+   first_name VARCHAR(100) NOT NULL,
+   last_name VARCHAR(40) NOT NULL,
+   address VARCHAR(250) NOT NULL,
+   PRIMARY KEY ( id )
+);
+
+5. Insert the values into customer table
+
+insert into customer (first_name,last_name,address)
+values('Keerthana', 'HS', 'Sydney');
+
+6. To print all the records from table
+syntax:
+select * from customer;
+
